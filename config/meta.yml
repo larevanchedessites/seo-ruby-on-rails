@@ -1,0 +1,6 @@
+# config/meta.yml
+
+meta_title: "SEO & Ruby On Rails"
+meta_description: "The 2018 comprehensive guide on SEO in Rails"
+meta_image: "logo.png" # Une image dans votre dossier app/assets/images/
+twitter_account: "@RevancheSites"

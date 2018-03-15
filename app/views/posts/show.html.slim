@@ -1,0 +1,7 @@
+- content_for :meta_title, "#{@post.title} | #{DEFAULT_META["meta_title"]}"
+
+/ canonical(post_url(@post)
+
+h1 = @post.title
+p = @post.created_at
+= markdown(@post.content)

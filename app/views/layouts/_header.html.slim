@@ -1,0 +1,11 @@
+header
+  nav
+    ul
+      li
+        = link_to root_path do
+          - unless current_page?(root_url)
+            span SEO & Ruby On Rails
+          - else
+            h1 SEO & Ruby On Rails
+      li = link_to "Blog", posts_path
+      li = link_to "Contact", contact_path

@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    = csrf_meta_tags
+    = render 'layouts/meta'
+    = stylesheet_link_tag "application", media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  body
+    = render 'layouts/header'
+    main role="main"
+      = render 'layouts/breadcrumb'
+      = yield
+    = render 'layouts/footer'

@@ -1,0 +1,4 @@
+- unless current_page?(root_url)
+  ul.breadcrumb itemscope="" itemtype="http://schema.org/BreadcrumbList"
+    = render_breadcrumbs tag: 'li', separator: '',
+  builder: Breadcrumbs::Builders::StructuredDataBreadcrumbsBuilder

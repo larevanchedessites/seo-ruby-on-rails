@@ -1,0 +1,4 @@
+- content_for :meta_title, "Blog | #{DEFAULT_META["meta_title"]}"
+
+h1 Blog
+ul = render partial: 'posts/post', collection: @posts, cached: true

@@ -1,0 +1,8 @@
+- if Rails.env == "production"
+  = "User-Agent: *\n"
+  = "Disallow: \n"
+- else
+  = "User-Agent: *\n"
+  = "Noindex: /\n"
+  
+= "\nSitemap: #{root_url}sitemap.xml"
