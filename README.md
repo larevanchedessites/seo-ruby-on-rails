@@ -1,17 +1,12 @@
 # SEO & Ruby On Rails
 An example app to setup Rails to be SEO friendly.
 
----
-
 ## Tutorial
 You can find the tutorial [here in french](#), or on [Medium in english](#).
 
----
-
 ## Deploy
 This example is heroku-ready, You can find the example app here :
-
----
+[seo-ruby-on-rails.herokuapp.com](https://seo-ruby-on-rails.herokuapp.com/)
 
 ## About
 * Friendly URL
@@ -32,8 +27,6 @@ This example is heroku-ready, You can find the example app here :
 
 ## TODO
 * Tests
-
----
 
 ## Gems :
 * slim
