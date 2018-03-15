@@ -1,0 +1,7 @@
+{
+  "name": "SEO & Ruby On Rails Sample",
+  "description": "An example app to setup Rails to be SEO friendly.",
+  "repository": "https://github.com/larevanchedessites/seo-ruby-on-rails",
+  "logo": "https://www.la-revanche-des-sites.fr/wp-content/uploads/2018/01/cropped-logo_lrds.png",
+  "keywords": ["ruby", "rails", "seo"]
+}
