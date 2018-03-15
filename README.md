@@ -7,6 +7,7 @@ You can find the tutorial [here in french](#), or on [Medium in english](#).
 ## Deploy
 This example is heroku-ready, You can find the example app here :
 [seo-ruby-on-rails.herokuapp.com](https://seo-ruby-on-rails.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/larevanchedessites/seo-ruby-on-rails)
 
 ## About
 * Friendly URL
