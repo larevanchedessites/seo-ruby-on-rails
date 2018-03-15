@@ -1,5 +1,5 @@
 # SEO & Ruby On Rails
-An example app to setup Rails to be SEO friendly.
+An example app to setup Rails to be SEO friendly made by a SEO agency, [la revanche des sites](https://www.la-revanche-des-sites.fr).
 
 ## Tutorial
 You can find the tutorial [here in french](#), or on [Medium in english](#).
