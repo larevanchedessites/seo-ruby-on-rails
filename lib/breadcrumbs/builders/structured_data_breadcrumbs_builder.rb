@@ -1,3 +1,5 @@
+# lib/breadcrumbs/builders/structured_data_breadcrumbs_builder.rb
+
 class Breadcrumbs::Builders::StructuredDataBreadcrumbsBuilder < BreadcrumbsOnRails::Breadcrumbs::Builder
   def render
     @elements.collect do |element|

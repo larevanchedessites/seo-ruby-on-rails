@@ -1,3 +1,5 @@
+# app/scrubbers/amp_scrubber.rb
+
 class AmpScrubber < Rails::Html::PermitScrubber
   TAG_MAPPINGS = {
     'img' => lambda { |node|

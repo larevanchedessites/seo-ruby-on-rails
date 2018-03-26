@@ -5,6 +5,9 @@ html
     = render 'layouts/meta'
     = stylesheet_link_tag "application", media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    link rel="canonical" href="#{url_for(format: :html, only_path: false)}"
+    link rel="amphtml" href="#{url_for(format: :amp, only_path: false)}"
+
   body
     = render 'layouts/header'
     main role="main"
