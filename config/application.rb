@@ -36,5 +36,9 @@ module SeoRubyOnRails
 
     # AMP
     config.assets.precompile << 'amp/application.scss'
+
+    # Deflater
+    # See also : https://robots.thoughtbot.com/content-compression-with-rack-deflater
+    config.middleware.use Rack::Deflater
   end
 end

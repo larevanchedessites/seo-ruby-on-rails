@@ -54,6 +54,10 @@ group :test do
   gem 'database_cleaner'
 end
 
+group :production do
+  gem 'heroku-deflater'
+end
+
 gem 'faker'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
