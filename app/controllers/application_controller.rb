@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
 
   def default_url_options
     if Rails.env.production?
-      { host: "www.example.com" }
+      { host: "seo-ruby-on-rails.herokuapp.com" }
     else
       {}
     end
