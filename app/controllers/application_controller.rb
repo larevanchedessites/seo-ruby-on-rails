@@ -10,4 +10,12 @@ class ApplicationController < ActionController::Base
     { host: ENV['HOST'] || 'localhost:3000' }
   end
 
+  def default_url_options
+    if Rails.env.production?
+      { host: "www.example.com" }
+    else
+      {}
+    end
+  end
+
 end
